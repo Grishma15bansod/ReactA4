@@ -4,7 +4,6 @@ import { Routes, Route, Link } from 'react-router-dom';
 import Home from './Routing/Home';
 import Student from './Routing/Student';
 import Contact from './Routing/Contact';
-import Main from './Routing/Main';
 
 function App() {
   return (
@@ -32,7 +31,7 @@ function App() {
   </div>
 </nav>
       <Routes>
-        {/* <Route path='/' element={<Main/>}/> */}
+      
         <Route path='/home' element={<Home/>}/>
         <Route path='/Student' element={<Student/>}/>
         <Route path='/Contact' element={<Contact/>}/>
